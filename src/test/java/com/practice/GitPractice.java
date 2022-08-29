@@ -1,9 +1,13 @@
 package com.practice;
 
-public class GitPractice {
+import org.testng.annotations.Test;
 
-	public static void main(String[] args) {
-		System.out.println();
+public class GitPractice {
+@Test(groups = {"system","regression"})
+	public  void jen() {
+		System.out.println("jenkins addded");
+		System.out.println("regression test");
+		System.out.println("system test");
 
 	}
 
